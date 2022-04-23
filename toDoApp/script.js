@@ -22,7 +22,6 @@ function eventListeners(event) {
     btnDeleteAll.addEventListener('click', deleteAllItem);
 };
 
-
 // get items from local storage
 function getItemsFromLS() {
     if (localStorage.getItem('items') === null) {
@@ -76,8 +75,6 @@ function createItem(text) {
     // add li to ul
     taskList.appendChild(li);
 };
-
-
 
 function addNewItem(e) {
 
